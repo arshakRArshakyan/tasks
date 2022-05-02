@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    flex-direction: column;
+}
+
+.container .input-number {
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+
+.container .btn {
+    height: 45px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #125e81;
+    color: white;
+    font-size: 20px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container .result {
+    margin: 20px 0;
+    font-size: 27px;
+}
